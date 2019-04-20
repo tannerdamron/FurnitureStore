@@ -13,7 +13,8 @@
 <body>
   <div class="container">
     <h1 class="jumbotron">Furniture Store</h1>
-    <label for="searchValue">Show furniture by category: </label>
+    <form id="searchForm">
+      <label for="searchValue">Show furniture by category: </label>
       <select class="categoryBar" id="searchValue">
         <option value="all">All</option>
         <option value="table">Table</option>
@@ -21,7 +22,8 @@
         <option value="chair">Chair</option>
         <option value="rug">Rug</option>
       </select>
-      <div class="row" id="furnitureList"></div>
+    </form>
+    <div class="row" id="furnitureList"></div>
   </div>
 </body>
 </html>
